@@ -152,7 +152,7 @@ ol li{
 }
 
 .top-bar ul li a{
-    color: #96a2b8;
+    color: #000;
     font-size: 16px;
     transition: .3s ease;
 }
@@ -493,7 +493,7 @@ header{
     margin-left: -30px;
     margin-top: -30px;
     border-radius: 50%;
-    background: #192f59;
+    background: #3b4081;
     -webkit-transition: background-color 0.3s;
     transition: background-color 0.3s;
     cursor: pointer;
@@ -504,7 +504,7 @@ header{
 }
   
 .slider__control:hover {
-    background-color: #179bd7;
+    background-color: #CBF3D2;
 }
   
 .slider__control-line {
@@ -711,7 +711,7 @@ header{
 
 /*-- block1 /*********************************************/
 .block1{
-    background:linear-gradient(#192f59,#192f59,#192f59), url('https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_1280.jpg');
+    background:linear-gradient(#3b4081,#3b4081,#3b4081), url('https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_1280.jpg');
     z-index: 9999;
 }
 
@@ -726,10 +726,11 @@ header{
     /* border-left:2px solid #b89f06; */
     padding-left: 10px;
     text-align: center;
+    color: #d9d9d9;
 }
 
 .block1 hr{
-    background: #b89f06;
+    background: #2EC4B6;
     height: 2px;
     border-radius: 50px;
     width: 80px;
@@ -744,7 +745,7 @@ header{
 }
 
 .block1 .icon{
-    background: #33476b; 
+    background: #3b4081; 
     height:100px; 
     width: 100px;
     border-radius:50%;
@@ -759,12 +760,12 @@ header{
 }
 
 .block1 .icon_text h5 a{
-    color: #b89f06;
+    color: #2EC4B6;
     font-family: 'Open Sans', sans-serif;
 }
 
 .block1 .icon_text h5 a:hover{
-    color:#169bd7;
+    color:#2EC4B6;
 }
 
 
@@ -785,7 +786,7 @@ header{
 .block15{
     min-height: 900px;
     position: relative;
-    background:linear-gradient(#182f59,#15a9e6,#15a9e6);
+    background:linear-gradient(#3b4081,#777fff,#777fff);
     /* s  #b89f07 */
 }
 
@@ -1242,13 +1243,13 @@ header{
 }
 
 .facultyStyle1{
-    background: linear-gradient(#192f5cb0, #179bd7), url(../images/justice.jpg);
+    background: linear-gradient(#3b4081, #7780ffa6), url(../images/justice.jpg);
     background-size: cover;
     background-position: bottom;
 }
 
 .facultyStyle3{
-    background: linear-gradient(#192f5cb0, #179bd7), url(../images/diplome.jpg);
+    background: linear-gradient(#3b4081, #7780ffa6), url(../images/diplome.jpg);
     background-size: cover;
     background-position: bottom;
 }
@@ -1259,7 +1260,7 @@ header{
 }
 
 .facultyStyle2{
-    background: linear-gradient( #b8a0079f, #dbc93e), url(../images/economie.jpg);
+    background: linear-gradient( #000814, #00081486), url(../images/economie.jpg);
     background-size: cover;
     background-position: center;
     transition: all .3s ease;
@@ -1267,7 +1268,7 @@ header{
 }
 
 .facultyStyle4{
-    background: linear-gradient( #b8a0079f, #dbc93e), url(../images/idea.jpg);
+    background: linear-gradient( #000814, #00081486), url(../images/idea.jpg);
     background-size: cover;
     background-position: right;
     transition: all .3s ease;
@@ -1435,7 +1436,7 @@ header{
 }
 
 .horizontal-bar{
-    background: #179bd7;
+    background: #7780ffa6;
     height: 2px;
     width: 30%;
     border-radius: 20px;
@@ -1457,7 +1458,7 @@ header{
 -------------------------------------------------------------*/
 
 .cl_blue-iua{
-    color: #179bd7;
+    color: #3b4081;
 }
 
 .cl_indigo-iua{
@@ -1465,7 +1466,7 @@ header{
 }
 
 .bg_indigo-iua{
-    background-color: #192f59;
+    background-color: #3b4081;
 }
 
 .cl_blue-grey{
@@ -1514,7 +1515,7 @@ header{
     BUTTONS 
 -------------------------------------------------------------*/
 .link {
-    color: #192f59;
+    color: #a6acff;
     cursor: pointer;
     font-weight: 400;
     text-decoration: none;
@@ -1585,6 +1586,11 @@ header{
 .img-rad-bl{
     border-bottom-left-radius: 13px;
 }
+
+
+
+
+
 
 
 
