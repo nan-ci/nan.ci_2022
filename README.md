@@ -8,7 +8,7 @@ URL : https://nan-ci.github.io/nan.ci_2022/
 
 1. Forked le projet (avoir une copie)
 2. Travailler sur votre copie
-3. Faire de pull request (demandé que vos modifications soient prises en compte par la branche principale )
+3. Faire un pull request (demandé que vos modifications soient prises en compte par la branche d'origine )
 
 
 NB : pour avoir une copie à jour par apport à la branche d'origine, voici le code git:
