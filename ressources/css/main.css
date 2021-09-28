@@ -1587,6 +1587,39 @@ header{
     border-bottom-left-radius: 13px;
 }
 
+/*------------------------
+    localisation
+-------------------------------------------------------------*/
+
+.section-localisation {
+    padding-bottom: 50px;
+    height: 200px;
+  }
+  
+  .card-localisation {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.459)),
+      url(../images/nan-img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    position: relative;
+  }
+  
+  .title-localisation {
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: capitalize;
+  }
+  
+  .carte iframe {
+    width: 100%;
+  }
+
 
 
 
