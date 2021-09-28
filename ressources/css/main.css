@@ -1620,6 +1620,20 @@ header{
     width: 100%;
   }
 
+  /*------------------------
+    mot directeur
+-------------------------------------------------------------*/
+
+.section-info{
+    background-color: #f2f2f2;
+    padding: 90px 0 30px;
+}
+
+.row-info{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 
 
 
