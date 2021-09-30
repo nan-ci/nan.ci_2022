@@ -1672,6 +1672,126 @@ header {
   -o-border-radius: 5px;
 }
 
-.img-system{
-    width: 100%;
+/*------------------------
+   système éducatif
+-------------------------------------------------------------*/
+
+.section-systeme {
+  padding: 60px 0 80px;
+}
+
+.my-title-systeme {
+  color: #777fff;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.img-system {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.paragraphe-systeme{
+  color: #74787b;
+  font-size: 14px;
+  margin: 15px 0;
+}
+
+
+/*------------------------
+   spécialité
+-------------------------------------------------------------*/
+
+.section-specialite{
+  padding: 60px 0 40px;
+}
+
+.row-specialite{
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+
+}
+.row-specialite-diff{
+  justify-content: center;
+  align-items: center;
+}
+
+.specialite {
+  text-align: center;
+  padding: 0 200px;
+ 
+}
+
+.bloc-specialite {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 0;
+  margin-right: 20px;
+}
+
+.specialite p {
+  margin: 10px 0;
+  color: #86868d;
+ padding: 0 200px;
+}
+
+.img-specialite{
+  width: 100%;
+  
+}
+.text-specialite {
+  padding: 10px 10px;
+}
+.text-specialite h1 {
+  font-size: 25px;
+  color: #89cff0;
+  text-transform: uppercase;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+}
+
+.time span {
+  margin-left: 10px;
+  margin: 10px;
+  color: #86868d;
+}
+
+.text-specialite p {
+  color: #86868d;
+  margin: 15px 0;
+  line-height: 1.5;
+}
+
+
+.liens {
+  display: flex;
+  width: 80px;
+  margin-top: 40px;
+}
+
+.liens:hover {
+  border-bottom: 1px solid #89cff0;
+}
+
+.liens a {
+  font-size: 12px;
+  color: #89cff0;
+}
+
+.liens img {
+  margin-left: 5px;
+}
+
+.title-specialite{
+  color: #36496f;
+}
+
+strong{
+  color: #777fff;
 }
