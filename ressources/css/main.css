@@ -1,7 +1,7 @@
 /*------------------------
-    GENERAL 
+    GENERAL
         @import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
-        
+
         FONTS ********************************************* */
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
@@ -1518,7 +1518,7 @@ header {
 }
 
 /*------------------------
-    BUTTONS 
+    BUTTONS
 -------------------------------------------------------------*/
 .link {
   color: #a6acff;
@@ -1564,7 +1564,7 @@ header {
 }
 
 /*------------------------
-    IMAGES 
+    IMAGES
 -------------------------------------------------------------*/
 
 .img-icon {
@@ -1694,28 +1694,26 @@ header {
   -o-border-radius: 10px;
 }
 
-.paragraphe-systeme{
+.paragraphe-systeme {
   color: #74787b;
   font-size: 14px;
   margin: 15px 0;
 }
 
-
 /*------------------------
    spécialité
 -------------------------------------------------------------*/
 
-.section-specialite{
+.section-specialite {
   padding: 60px 0 40px;
 }
 
-.row-specialite{
+.row-specialite {
   padding: 30px 0;
   display: flex;
   justify-content: space-between;
-
 }
-.row-specialite-diff{
+.row-specialite-diff {
   justify-content: center;
   align-items: center;
 }
@@ -1723,7 +1721,6 @@ header {
 .specialite {
   text-align: center;
   padding: 0 200px;
- 
 }
 
 .bloc-specialite {
@@ -1735,12 +1732,11 @@ header {
 .specialite p {
   margin: 10px 0;
   color: #86868d;
- padding: 0 200px;
+  padding: 0 200px;
 }
 
-.img-specialite{
+.img-specialite {
   width: 100%;
-  
 }
 .text-specialite {
   padding: 10px 10px;
@@ -1768,7 +1764,6 @@ header {
   line-height: 1.5;
 }
 
-
 .liens {
   display: flex;
   width: 80px;
@@ -1788,10 +1783,150 @@ header {
   margin-left: 5px;
 }
 
-.title-specialite{
+.title-specialite {
   color: #36496f;
 }
 
-strong{
+strong {
   color: #777fff;
 }
+
+/*------------------------
+   SECTION INFO CAMPUS
+-------------------------------------------------------------*/
+
+.section-infocampus {
+  margin: 70px 0 0px;
+  background:linear-gradient(rgba(0, 0, 0, 0.829),rgba(0, 0, 0, 0.829)), url(../images/cpus1.jpeg);
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:10px;
+  margin-left: 10px;
+}
+
+.row-campus {
+  width: 100%;
+  display: flex;
+}
+
+.row-imagcampus {
+  flex: 1;
+  margin: 40px 80px;
+  gap: 20px;
+}
+
+.row-imagcampus img {
+  width: 100%;
+  border-radius: 10px;
+  
+}
+
+.row-textcampus {
+  flex: 1;
+  margin: 40px 80px;
+  position: relative;
+}
+
+.title-campus{
+  color: #777fff;
+  font-size: 40px;
+}
+
+.linecampus{
+  background-color: #777fff;
+  height: 2px;
+  width: 250px;
+  border-radius: 50px;
+  margin: auto;
+  position: absolute;
+  top: 70px;
+}
+
+.graphe-campus{
+  color: #f1f1f1;
+  font-size: 20px;
+}
+
+
+
+/*------------------------
+   SECTION AGENDAR
+-------------------------------------------------------------*/
+
+.section-agendar{
+  background-color: #f2f2f2;
+  padding: 60px 0 30px;
+}
+
+.heure{
+  display: flex;
+  justify-content: space-between;
+}
+
+.hr{
+  width: 100%;
+  border-radius: 50px;
+  margin: auto;
+  position: absolute;
+}
+
+.row-agendar{
+  width: 100%;
+}
+
+.list-info{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+/*------------------------
+   SECTION VIE ETUDIENTS
+-------------------------------------------------------------*/
+
+.image-bloc{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.section-student{
+  padding: 60px 0 30px;
+}
+
+.row-title{
+  width: 500px;
+  margin:40px auto;
+  color: #3b4081;
+}
+
+.row-title h1{
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.info-student{
+  text-align: center;
+}
+
+.title-stud{
+  color: #3b4081;
+  font-weight: bold;
+  margin: 15px 0 5px;
+}
+
+.info-student span{
+  color: #d9d9d9;
+  font-size: 25px;
+}
+
+.graphe-stud{
+  color: #828282;
+  margin: 10px 0 5px;
+}
+
+/*------------------------
+   SECTION ANCIENS ETUDIENTS
+-------------------------------------------------------------*/
+
