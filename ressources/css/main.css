@@ -1888,8 +1888,45 @@ strong {
 
 .image-bloc{
   width: 100%;
+  border-radius: 10px;
 }
 
-/* .section-student{
+.section-student{
+  padding: 60px 0 30px;
+}
 
-} */
+.row-title{
+  width: 500px;
+  margin:40px auto;
+  color: #3b4081;
+}
+
+.row-title h1{
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.info-student{
+  text-align: center;
+}
+
+.title-stud{
+  color: #3b4081;
+  font-weight: bold;
+  margin: 15px 0 5px;
+}
+
+.info-student span{
+  color: #d9d9d9;
+  font-size: 25px;
+}
+
+.graphe-stud{
+  color: #828282;
+  margin: 10px 0 5px;
+}
+
+/*------------------------
+   SECTION ANCIENS ETUDIENTS
+-------------------------------------------------------------*/
+
